@@ -4,4 +4,4 @@ require("./Libraries/MessageAlert.class.php");
 
 
 $objMessageAlert = new MessageAlert();
-$objMessageAlert->sendMessage( 'Hello Universe!' );
+$objMessageAlert->sendMessage( 'Hello Larger, Folder Based Universe!' );
