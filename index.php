@@ -1,12 +1,6 @@
 <?php
 
-
-// We should really create a class!
-class MessageAlert {
-    function sendMessage( $strMessage='' ){
-        if( '' !== $strMessage ) echo $strMessage;
-    }
-}
+require("./MessageAlert.class.php");
 
 
 $objMessageAlert = new MessageAlert();
