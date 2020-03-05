@@ -4,4 +4,4 @@ require("./MessageAlert.class.php");
 
 
 $objMessageAlert = new MessageAlert();
-$objMessageAlert->sendMessage( 'Hello Universe!' );
+$objMessageAlert->sendMessage( 'This is my newish message' );
