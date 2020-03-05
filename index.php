@@ -1,6 +1,6 @@
 <?php
 
-require("./MessageAlert.class.php");
+require("./Libraries/MessageAlert.class.php");
 
 
 $objMessageAlert = new MessageAlert();
